@@ -1,3 +1,4 @@
+# Factorial Computation
 # Copyright (C) 2020 Richard Ricardo
 
 # This program is free software: you can redistribute it and/or modify
@@ -27,7 +28,7 @@ __version__ = "0.0.1"
 np.random.seed(42)
 
 
-Class model(object):
+class Model(object):
 	def __init__(self):
 		pass
 
@@ -38,5 +39,5 @@ def factorial(number):
 		return number * factorial(number - 1)
 
 def main():
-	models = model()
+	models = Model()
 	answer = factorial(4)
